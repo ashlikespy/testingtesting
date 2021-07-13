@@ -1,0 +1,106 @@
+KAZ_MI
+{
+  "basinData": {
+    "basinName": "Williston Basin",
+    "formations": [
+      "B",
+      "TF1",
+      "TF2"
+    ]
+  },
+  "priceDeckData": {
+    "liveData": false,
+    "nymexHistoryHeader": null,
+    "year1": 2021,
+    "year2": 2022,
+    "year3": 2023,
+    "year4": 2024,
+    "year5": 2025,
+    "year6": 2026,
+    "year1Oil": 64.62,
+    "year2Oil": 60.85,
+    "year3Oil": 57.31,
+    "year4Oil": 55.0,
+    "year5Oil": 53.54,
+    "year6Oil": 55.0,
+    "year1Gas": 3.06,
+    "year2Gas": 2.79,
+    "year3Gas": 2.6,
+    "year4Gas": 2.59,
+    "year5Gas": 2.61,
+    "year6Gas": 2.63,
+    "oilDiff": -5.5,
+    "gasDiff": 10.0,
+    "nglDiff": 60.0,
+    "fixedLOE": 0.0,
+    "variableLOE": 0.0,
+    "waterDispCost": 0.0,
+    "gasShrinkage": 39.0,
+    "nglYield": 0.12,
+    "oilAndNGLSeverance": 10.0,
+    "gasSeverance": 0.0712,
+    "adValorem": 0.0,
+    "percentTangibleInvestments": 30.0,
+    "percentIntangibleInvestments": 70.0
+  },
+  "inputDataRecords": [
+    {
+      "includeLOCsInGrandTotal": false,
+      "dsuid": "156099_1819-1",
+      "pdpEntryDiscount": 10,
+      "ducsEntryDiscount": 15,
+      "afesEntryDiscount": 15,
+      "permitsEntryDiscount": 20,
+      "locsEntryDiscount": 25,
+      "pdpExitDiscount": 10,
+      "ducsExitDiscount": 15,
+      "afesExitDiscount": 15,
+      "permitsExitDiscount": 20,
+      "locsExitDiscount": 25,
+      "effectiveDate": "2021-05-01T00:00:00",
+      "ducFPD": "2021-12-01T00:00:00",
+      "afeFPD": "2021-08-01T00:00:00",
+      "permitFPD": "2021-06-01T00:00:00",
+      "locFPD": "2026-05-01T00:00:00",
+      "exitDate": "2024-01-01T00:00:00",
+      "interestType": "mineral",
+      "leaseStatus": "leased",
+      "netAcres": 28.93,
+      "workingInterest": 0.386268,
+      "royaltyBurden": 0.0,
+      "netRevenueInterest": 0.386268,
+      "percentLeverage": 40.0,
+      "interestRate": 5.5,
+      "roi": 2.0,
+      "offerAmount": 518,	
+      "percentDebtOfTotalCapital": 40.0,
+      "percentOfMaxOffer": 80.0,
+      "wellboreOnly": false,
+      "lateralLength": {
+        "B": 10000.0,
+        "TF1": 10000.0,
+        "TF2": 10000.0
+      },
+      "reserveMultiplier": {
+        "B": 1.0,
+        "TF1": 1.0,
+        "TF2": 1.0
+      },
+      "capEx": {
+        "B": 0.0,
+        "TF1": 0.0,
+        "TF2": 0.0
+      },
+      "numAFEs": {
+        "B": 5,
+        "TF1": 1,
+        "TF2": 4
+      },
+      "numPermits": {
+        "B": 0,
+        "TF1": 0,
+        "TF2": 0
+      }
+    }
+  ]
+}
